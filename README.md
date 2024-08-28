@@ -1,1 +1,1 @@
-Aimee Amelie Gutierrez Nuñez Práctica 1 CCOMP2.2
+Aimee Amelie Gutierrez Nuñez CCOMP2-2
