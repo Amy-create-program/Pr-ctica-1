@@ -3,7 +3,7 @@
 int main() 
 {
     int num;
-    std::cout << "Enter a four-digit integer: ";
+    std::cout << "Ingrese cuatro números enteros: ";
     std::cin >> num;
 
     int digit4 = num % 10; 
