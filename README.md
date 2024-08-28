@@ -1,1 +1,1 @@
-Aimee Amelie Gutierrez Nuñez CCOMP2-2
+Aimee Gutierrez CCOMP2-2
