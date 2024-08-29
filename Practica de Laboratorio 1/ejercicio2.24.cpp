@@ -12,7 +12,8 @@ int main()
     if (num1 % 2 == 0) 
     {
         std::cout << num1 << " es par." << std::endl;
-    } else 
+    } 
+    else 
     {
         std::cout << num1 << " es impar." << std::endl;
     }
@@ -20,7 +21,8 @@ int main()
     if (num2 % 2 == 0) 
     {
         std::cout << num2 << " es par." << std::endl;
-    } else 
+    } 
+    else 
     {
         std::cout << num2 << " es impar." << std::endl;
     }
@@ -30,7 +32,8 @@ int main()
     if (sum_num % 2 == 0) 
     {
         std::cout << "La suma de " << num1 << " y " << num2 << " es par." << std::endl;
-    } else 
+    } 
+    else 
     {
         std::cout << "La suma de " << num1 << " y " << num2 << " es impar." << std::endl;
     }
