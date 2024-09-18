@@ -3,7 +3,7 @@
 class Date {
     
 public:
-    date(int Month, int Year, int Day) 
+    Date(int Month, int Year, int Day) 
         : month(Month), year(Year), day(Day) {}
 
     void setMonth(int getMonth)
@@ -27,12 +27,24 @@ public:
         year = getYear;
     }
 
-    void displayDate() ;
+    void displayDate(){
         cout << month << "/" << day << "/" << year;
-
+    }
 private:    
     int year;
     int month;
     int day;
 
 };
+
+inr main(){
+    Date date1(5, 12 , 2022);
+    std::cout << "Fecha 1: ";
+    date1.displayDate();
+
+    date date2(2, 25, 2025);
+    std::cout << "Fecha 2: ";
+    date2.displayDate();
+
+    return 0;
+}
